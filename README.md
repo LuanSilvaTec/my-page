@@ -1,6 +1,6 @@
 # Build react app on GitHub 
 
-** 1. Create your repository on GitHub**
+1. **Create your repository on GitHub**
 The next step was to install ‘gh-pages’ package using the following npm command:
 ```
 npm install --save gh-pages
