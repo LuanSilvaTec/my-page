@@ -1,4 +1,4 @@
-#Build react app on GitHub 
+# Build react app on GitHub 
 
 **Add this code on the package.json of the project:**
 ´´´"predeploy":"npm run build",
