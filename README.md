@@ -14,14 +14,15 @@ https://[your-user-name].github.io/[your-repo-name]/
 “deploy” specifies which branch and directory to deploy.
 ```
 
-**Add this code on the package.json of the project:**
+4. **Add this code on the package.json of the project:**
 
 ```
 "predeploy":"npm run build"
 "build":"react-scripts build"
 "deploy":"gh-pages -d build -r <repository link>"
 ```
-4. Then, deploy the application using the following command:
+5. Then, deploy the application using the following command:
 ```
 npm run deploy
 ```
+For more details, look at [here](https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d)
